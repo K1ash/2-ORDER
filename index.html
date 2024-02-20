@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <title>Wolf_Lazer</title>
+    <meta charset="utf-8">
+    <meta name="">
+    <link rel="shortcut icon" href="img/3766.970.jpg" type="image/x-icon"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/examples/libs/simple-adaptive-slider/simple-adaptive-slider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  </head>
+<body>
+
+
+<!-- Скрипты + стили пропысаные + кнопка -->
+  
+    <script src="js/jssor.slider-22.2.6.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+
+
+  
+    </script>
+    <style>
+        
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+          
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+    
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+    </style>
+ <!-- Скрипты + стили пропысаные-->
+
+
+
+
+
+<div class="backhead">
+<div class="header" style="background-image: url('img/1647650285_5-abrakadabra-fun-p-chernii-fon-dlya-shapki-5.jpg');">
+        
+<a href="index.html" class="logo1"> 
+    <img src="img/logo902.png" class="logo">
+</a>
+
+<div class="header-right">
+<div class="head12">
+<div class="heada">
+                    
+    <a class="#" href="index.html">Главная</a>
+    <a class="#" href="zakaz.html">Заказать</a>
+    <a class="#" href="contact.html">Контакты</a>
+         
+       
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+    <div class="header-right1">
+            
+      
+
+</div>      
+</div>
+
+
+
+
+
+<!-- СЛАЙДЕР ВНИЗУ-->
+<div id="jssor_1" 
+style="
+position:relative;
+margin:0 auto;
+top:0px;
+left:0px; 
+width:1300px; 
+height:400px; 
+overflow:hidden;
+visibility:hidden;
+">
+    <!-- Loading Screen -->
+    <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+        <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+        <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+    </div>
+
+
+    <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+        <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+        <div>
+            <img data-u="image" src="img/bg_1.jpg" />
+            <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;line-height:60px;">ТЕКСТ</div>
+            <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;line-height:38px;">ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ</div>
+        </div>
+        <div>
+            <img data-u="image" src="img/bg_2.jpg" />
+            <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;line-height:60px;">ТЕКСТ</div>
+            <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;line-height:38px;">ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ</div>
+        </div>
+        <div>
+            <img data-u="image" src="img/bg_1.jpg" />
+            <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:50px;color:#ffffff;line-height:60px;">ТЕКСТ</div>
+            <div style="position:absolute;top:300px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:#ffffff;line-height:38px;">ТЕКСТ ТЕКСТ ТЕКСТ ТЕКСТ</div>
+        </div>
+    </div>
+    <!-- Bullet Navigator -->
+    <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+        <!-- bullet navigator item prototype -->
+        <div data-u="prototype" 
+        style="
+        width:16px;
+        height:16px;">
+        </div>
+    </div>
+    <!-- Arrow Navigator -->
+    <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+    <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+</div>
+<script type="text/javascript">jssor_1_slider_init();</script>
+<!-- #endregion Jssor Slider End -->
+
+
+<!-- Заглав название -->
+<nav>
+    <ul class="topmenu">
+      <li><a href=""><b>В Продажі</b></a></li>
+      <li><a href="#">Гравировка</a>
+         <ul class="submenu">
+      <li><a href="graf.html#grst">Гравировка на стеклі</a></li>
+       <li><a href="graf.html#grtree">Гравировка на дереві</a></li>
+       <li><a href="graf.html#grkoz">Гравировка на кожі</a></li>
+       <li><a href="graf.html#grdze">Гравировка на дзеркалі</a></li>
+
+      <!-- <li><a href="graf.html#grmet">Гравировка на металі</a></li> --> 
+       <li><a href="graf.html#grplast">Гравировка на пластику</a></li>
+       </ul>
+      </li>
+      <li><a href="">Резка</a>
+        <ul class="submenu">
+      <li><a href="">Резка по дереву</a></li>
+       <li><a href="">Резка по стеклу</a></li>
+       <li><a href="">Резка по коже</a></li>
+       <li><a href="">Резка по ткане</a></li>
+       <li><a href="">Резка по картон</a></li>
+       </ul>
+      </li>
+    </ul>
+  </nav>
+<!-- Заглав название -->
+
+
+<!-- Product section -->
+<section class="product-section spad">
+    <div class="container">
+        <div class="row" id="product-filter">
+
+<!-- ГЕЛИК -->
+
+            <div class="mix col-lg-3 col-md-6 new">
+                <div class="product-item">
+                    <figure>
+                        <img src="img/photo_2023-01-24_11-30-19.jpg" alt="">
+                     
+                        <div class="pi-meta">
+                            <div class="pi-m-left">
+                                <a href="karta1.html">
+                                <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                                </a>
+                                <p>Посмотреть</p>
+                            </div>
+
+                        </div>
+                    </figure>
+                    <div class="product-info">
+                        <h6>Гелик</h6>
+                        <p>190.50 ₴</p>
+                        <a href="karta1.html" class="site-btn btn-line">Купить</a>
+                    </div>
+                </div>
+            </div>
+
+<!-- ГЕЛИК -->
+
+
+<!-- ГРУЗОВИК -->
+
+            <div class="mix col-lg-3 col-md-6 new">
+                <div class="product-item">
+                    <figure>
+                        <img src="img/143924986.webp" alt="">
+                     
+                        <div class="pi-meta">
+                            <div class="pi-m-left">
+                                <a href="karta2.html">
+                                <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                                </a>
+                                <p>Посмотреть</p>
+                            </div>
+                        
+                        </div>
+                    </figure>
+                    <div class="product-info">
+                        <h6>Грузовик</h6>
+                        <p>290.50 ₴</p>
+                        <a href="karta2.html" class="site-btn btn-line">Купить</a>
+                    </div>
+                </div>
+            </div>
+
+<!-- ГРУЗОВИК -->
+
+
+<!-- потяг -->
+
+            <div class="mix col-lg-3 col-md-6 new">
+                <div class="product-item">
+                    <figure>
+                        <img src="img/295012575.webp" alt="">
+                     
+                        <div class="pi-meta">
+                            <div class="pi-m-left">
+                                <a href="karta3.html">
+                                <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                                </a>
+                                <p>Посмотреть</p>
+                            </div>
+                        
+                        </div>
+                    </figure>
+                    <div class="product-info">
+                        <h6>Потяг</h6>
+                        <p>745.50 ₴</p>
+                        <a href="karta3.html" class="site-btn btn-line">Купить</a>
+                    </div>
+                </div>
+            </div>
+
+         <!-- потяг --> 
+
+         <!-- ГЕЛИК -->
+
+         <div class="mix col-lg-3 col-md-6 new">
+            <div class="product-item">
+                <figure>
+                    <img src="img/photo_2023-01-24_11-30-19.jpg" alt="">
+                 
+                    <div class="pi-meta">
+                        <div class="pi-m-left">
+                            <a href="karta1.html">
+                            <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                            </a>
+                            <p>Посмотреть</p>
+                        </div>
+
+                    </div>
+                </figure>
+                <div class="product-info">
+                    <h6>Гелик</h6>
+                    <p>190.50 ₴</p>
+                    <a href="karta1.html" class="site-btn btn-line">Купить</a>
+                </div>
+            </div>
+        </div>
+
+<!-- ГЕЛИК -->
+
+
+<!-- ГРУЗОВИК -->
+
+        <div class="mix col-lg-3 col-md-6 new">
+            <div class="product-item">
+                <figure>
+                    <img src="img/143924986.webp" alt="">
+                 
+                    <div class="pi-meta">
+                        <div class="pi-m-left">
+                            <a href="karta2.html">
+                            <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                            </a>
+                            <p>Посмотреть</p>
+                        </div>
+                    
+                    </div>
+                </figure>
+                <div class="product-info">
+                    <h6>Грузовик</h6>
+                    <p>290.50 ₴</p>
+                    <a href="karta2.html" class="site-btn btn-line">Купить</a>
+                </div>
+            </div>
+        </div>
+
+<!-- ГРУЗОВИК -->
+
+
+<!-- потяг -->
+
+        <div class="mix col-lg-3 col-md-6 new">
+            <div class="product-item">
+                <figure>
+                    <img src="img/295012575.webp" alt="">
+                 
+                    <div class="pi-meta">
+                        <div class="pi-m-left">
+                            <a href="karta3.html">
+                            <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                            </a>
+                            <p>Посмотреть</p>
+                        </div>
+                    
+                    </div>
+                </figure>
+                <div class="product-info">
+                    <h6>Потяг</h6>
+                    <p>745.50 ₴</p>
+                    <a href="karta3.html" class="site-btn btn-line">Купить</a>
+                </div>
+            </div>
+        </div>
+
+     <!-- потяг --> 
+     
+     
+     <!-- ГЕЛИК -->
+
+     <div class="mix col-lg-3 col-md-6 new">
+        <div class="product-item">
+            <figure>
+                <img src="img/photo_2023-01-24_11-30-19.jpg" alt="">
+             
+                <div class="pi-meta">
+                    <div class="pi-m-left">
+                        <a href="karta1.html">
+                        <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                        </a>
+                        <p>Посмотреть</p>
+                    </div>
+
+                </div>
+            </figure>
+            <div class="product-info">
+                <h6>Гелик</h6>
+                <p>190.50 ₴</p>
+                <a href="karta1.html" class="site-btn btn-line">Купить</a>
+            </div>
+        </div>
+    </div>
+
+<!-- ГЕЛИК -->
+
+
+<!-- ГРУЗОВИК -->
+
+    <div class="mix col-lg-3 col-md-6 new">
+        <div class="product-item">
+            <figure>
+                <img src="img/143924986.webp" alt="">
+             
+                <div class="pi-meta">
+                    <div class="pi-m-left">
+                        <a href="karta2.html">
+                        <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                        </a>
+                        <p>Посмотреть</p>
+                    </div>
+                
+                </div>
+            </figure>
+            <div class="product-info">
+                <h6>Грузовик</h6>
+                <p>290.50 ₴</p>
+                <a href="karta2.html" class="site-btn btn-line">Купить</a>
+            </div>
+        </div>
+    </div>
+
+<!-- ГРУЗОВИК -->
+
+
+<!-- потяг -->
+
+    <div class="mix col-lg-3 col-md-6 new">
+        <div class="product-item">
+            <figure>
+                <img src="img/295012575.webp" alt="">
+             
+                <div class="pi-meta">
+                    <div class="pi-m-left">
+                        <a href="karta3.html">
+                        <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                        </a>
+                        <p>Посмотреть</p>
+                    </div>
+                
+                </div>
+            </figure>
+            <div class="product-info">
+                <h6>Потяг</h6>
+                <p>745.50 ₴</p>
+                <a href="karta3.html" class="site-btn btn-line">Купить</a>
+            </div>
+        </div>
+    </div>
+
+ <!-- потяг --> 
+
+ <!-- ГЕЛИК -->
+
+ <div class="mix col-lg-3 col-md-6 new">
+    <div class="product-item">
+        <figure>
+            <img src="img/photo_2023-01-24_11-30-19.jpg" alt="">
+         
+            <div class="pi-meta">
+                <div class="pi-m-left">
+                    <a href="karta1.html">
+                    <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                    </a>
+                    <p>Посмотреть</p>
+                </div>
+
+            </div>
+        </figure>
+        <div class="product-info">
+            <h6>Гелик</h6>
+            <p>190.50 ₴</p>
+            <a href="karta1.html" class="site-btn btn-line">Купить</a>
+        </div>
+    </div>
+</div>
+
+<!-- ГЕЛИК -->
+
+
+<!-- ГРУЗОВИК -->
+
+<div class="mix col-lg-3 col-md-6 new">
+    <div class="product-item">
+        <figure>
+            <img src="img/143924986.webp" alt="">
+         
+            <div class="pi-meta">
+                <div class="pi-m-left">
+                    <a href="karta2.html">
+                    <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                    </a>
+                    <p>Посмотреть</p>
+                </div>
+            
+            </div>
+        </figure>
+        <div class="product-info">
+            <h6>Грузовик</h6>
+            <p>290.50 ₴</p>
+            <a href="karta2.html" class="site-btn btn-line">Купить</a>
+        </div>
+    </div>
+</div>
+
+<!-- ГРУЗОВИК -->
+
+
+<!-- потяг -->
+
+<div class="mix col-lg-3 col-md-6 new">
+    <div class="product-item">
+        <figure>
+            <img src="img/295012575.webp" alt="">
+         
+            <div class="pi-meta">
+                <div class="pi-m-left">
+                    <a href="karta3.html">
+                    <img src="img/free-icon-eye-159604.png" width="20px" alt="">
+                    </a>
+                    <p>Посмотреть</p>
+                </div>
+            
+            </div>
+        </figure>
+        <div class="product-info">
+            <h6>Потяг</h6>
+            <p>745.50 ₴</p>
+            <a href="karta3.html" class="site-btn btn-line">Купить</a>
+        </div>
+    </div>
+</div>
+
+<!-- потяг --> 
+
+
+
+        </div>
+</section>
+<!-- Product section end -->
+
+
+
+<!-- Футер -->
+<footer style="footer">
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+    </div>
+
+    
+
+
+    <div class="textcols">
+        <div class="textcols-item">
+            <a href="index.html"> 
+                <img src="img/logo902.png" class="logo">
+            </a>
+            <pre> </pre>
+            <b>
+                «О нас» должна в первую очередь рассказывать о клиенте и его интересах, а во вторую – о вашем бизнесе.
+                
+            </b>
+            <pre></pre>
+            <a href="#">Правила</a>
+            <pre></pre>
+            <a href="#">Способы оплаты</a>
+        </div>
+
+
+        <div class="textcols-item">
+            <b><h2>Контакти</h2></b>
+            <pre></pre>
+            <img src="icons/icons8-google-карты-50.png" width="25px" height="25px"> Запоріжжя, Україна
+            <pre></pre>
+            <img src="icons/icons8-громкость-звонка-50.png" width="25px" height="25px"> +380000000000
+            <pre></pre>
+            <img src="icons/icons8-сообщение-с-заливкой-30.png" width="25px" height="25px"> WolfLazer@gmail.com 
+        </div>
+
+
+
+        <div class="textcols-item">
+            <h2>Сторінки</h2>
+            <pre></pre>
+            <div class="heada">
+               
+    <a class="#" href="index.html">Главная</a>
+    <pre></pre>
+    <a class="#" href="zakaz.html">Заказать</a>
+    <pre></pre>
+    <a class="#" href="contact.html">Контакты</a>
+    <pre></pre>
+    <a class="#" href="contact.html">Гравировка</a>
+    <pre></pre>
+    <a class="#" href="contact.html">Резка</a>
+
+</div>
+        </div>
+    </div>
+
+
+
+
+
+
+</footer>
+<!-- Футер -->
+
+
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script type="text/javascript">
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+ 
+
+
+
+
+
+</body>
+</html>
